@@ -1,0 +1,18 @@
+.fm {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+}
+
+.fm-ico-gps {
+    background-image: url('../icons/icon-location.svg');
+}
+
+.fm-ico-tel {
+    background-image: url('../icons/icon-phone.svg');
+}
+
+.fm-ico-email {
+    background-image: url('../icons/icon-email.svg');
+}
