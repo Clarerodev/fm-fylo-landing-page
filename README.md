@@ -24,15 +24,12 @@
 <br />
 
 ## **Preview**
-
 <div align='center'>
   <a href="https://clarerodev.github.io/fm-fylo-landing-page/" target="_blank">Demo Live</a>
 </div>
-<br>
-
-## **The challenge**
 <br />
 
+## **The challenge**
 The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 You can use any tools you like to help you complete the challenge. So if you've got something you'd like to practice, feel free to give it a go.
@@ -41,12 +38,9 @@ Users should be able to:
 
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
-
-
 <br />
 
 ## **Releases**
-
 <table>
 <thead>
   <tr>
@@ -148,12 +142,9 @@ Users should be able to:
   </tr> 
 </tbody>
 </table>
-
-
-## **Built With**
-
 <br />
 
+## **Built With**
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white)   
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white) 
 
