@@ -97,7 +97,7 @@ Users should be able to:
   </tr>
    <tr>
     <td>
-      <b>fm-vuejs-introduction-section</b>
+      <b>fm-vite-setup</b>
     </td>
     <td>
       <span>v-1.1.0</span>
@@ -106,25 +106,25 @@ Users should be able to:
   </tr>
    <tr>
     <td>
-      <b>fm-vuejs-feature-section</b>
+      <b>fm-sass-introduction-section</b>
     </td>
     <td>
       <span>v-1.2.0</span>
     </td>
     <td>N/A</td>
   </tr>
-  <tr>
+   <tr>
     <td>
-      <b>fm-vuejs-description-section</b>
+      <b>fm-sass-feature-section</b>
     </td>
     <td>
       <span>v-1.3.0</span>
     </td>
     <td>N/A</td>
-  </tr> 
-   <tr>
+  </tr>
+  <tr>
     <td>
-      <b>fm-vuejs-comments-section</b>
+      <b>fm-sass-description-section</b>
     </td>
     <td>
       <span>v-1.4.0</span>
@@ -133,10 +133,19 @@ Users should be able to:
   </tr> 
    <tr>
     <td>
-      <b>fm-vuejs-subscription-section</b>
+      <b>fm-sass-comments-section</b>
     </td>
     <td>
       <span>v-1.5.0</span>
+    </td>
+    <td>N/A</td>
+  </tr> 
+   <tr>
+    <td>
+      <b>fm-sass-subscription-section</b>
+    </td>
+    <td>
+      <span>v-1.6.0</span>
     </td>
     <td>v-2.0.0</td>
   </tr> 
