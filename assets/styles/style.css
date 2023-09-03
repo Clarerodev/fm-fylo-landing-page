@@ -1,7 +1,7 @@
 body {
-    background: black;
+    background: #181F2B;
     color: white;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Landing Page */
@@ -62,6 +62,10 @@ body {
     }
 }
 
+.footer--contact-gps p {
+    text-align: left;
+}
+
 .footer-direct-contact {
     margin-right: 146px;
 }
@@ -86,6 +90,7 @@ body {
 /* Header */
 .header {
     padding: 24px 20px 0;
+    background: #1B2330;
 }
 
 .header-navigation {
@@ -116,4 +121,48 @@ body {
 .header-navigation--menu-item a:hover {
     color: white;
     font-weight: 500;
+}
+
+/* Introduction section */
+.intro {
+    padding: 53px 36px;
+    background: #1B2330;
+    position: relative;
+}
+/*
+.intro-image::before {
+    content: '';
+    background: url('../images/bg-curvy-mobile.svg') no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+}
+*/
+.intro-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 33px;
+    position: relative;
+}
+.intro-image img {
+    width: 100%;
+    height: 100%;
+}
+.intro-detail { 
+    position: relative;
+    margin-bottom: 32px;
+}
+.intro-detail--content {
+    padding: 0 4px;
+}
+.intro-action {
+    display: flex;
+    justify-content: center;
+}
+.intro-action button {
+    width: 240px
 }
