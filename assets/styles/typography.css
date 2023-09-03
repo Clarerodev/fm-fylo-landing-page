@@ -6,6 +6,14 @@ h1 {
     font-weight: 700;
     line-height: 36px;
 }
+h2 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
 
 p {
     color: #FFF;
