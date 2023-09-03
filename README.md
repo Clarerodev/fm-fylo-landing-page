@@ -55,7 +55,7 @@ Users should be able to:
       <b>fm-css-introduction-section</b>
     </td>
     <td>
-      <img src="https://img.shields.io/badge/In_Progress-v 0.1.0-yellow" alt="Status In progress">
+      <img src="https://img.shields.io/badge/Done-v 0.1.0-green" alt="Done">
     </td>
     <td>N/A</td>
   </tr>
@@ -64,7 +64,9 @@ Users should be able to:
       <b>fm-css-feature-section</b>
     </td>
     <td>
-      <span>v-0.2.0</span>
+      <span>
+        <img src="https://img.shields.io/badge/In_Progress-v 0.2.0-yellow" alt="Status In progress">
+       </span>
     </td>
     <td>N/A</td>
   </tr>
