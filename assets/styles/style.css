@@ -128,23 +128,13 @@ body {
     padding: 53px 36px;
     background: #1B2330;
     position: relative;
-}
-/*
-.intro-image::before {
-    content: '';
-    background: url('../images/bg-curvy-mobile.svg') no-repeat;
-    background-size: 100%;
-    background-position: 100%;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    bottom: 250px;
-}
-*/
-.intro-image {
     display: flex;
     justify-content: center;
+}
+.intro-dashboard {
+    max-width: 720px;
+}
+.intro-image {
     margin-bottom: 33px;
     position: relative;
 }
@@ -156,13 +146,35 @@ body {
     position: relative;
     margin-bottom: 32px;
 }
+.intro-detail--title {
+    text-align: center;
+    @media (min-width: 1440px) {
+        font-size: 40px;
+        line-height: 60px;
+        margin-bottom: 32px;
+    }
+}
 .intro-detail--content {
     padding: 0 4px;
+    max-width: 589px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+.intro-detail--content p {
+    @media (min-width: 1440px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 .intro-action {
     display: flex;
     justify-content: center;
 }
 .intro-action button {
-    width: 240px
+    width: 100%;
+    max-width: 240px;
+    @media (min-width: 1440px) {
+        font-size: 1rem;
+        max-width: 280px;
+    }
 }
