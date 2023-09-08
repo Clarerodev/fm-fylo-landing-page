@@ -1,7 +1,5 @@
 .fm {
     display: inline-block;
-    height: 24px;
-    width: 24px;
     background-repeat: no-repeat;
 }
 
@@ -15,4 +13,7 @@
 
 .fm-ico-email {
     background-image: url('../icons/icon-email.svg');
+}
+.fm-ico-arrow {
+    background-image: url('../icons/icon-arrow.svg');
 }
