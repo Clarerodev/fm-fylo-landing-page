@@ -86,8 +86,7 @@ Users should be able to:
       <b>fm-css-comments-section</b>
     </td>
     <td>
-        <img src="https://img.shields.io/badge/In_Progress-v 0.4.0-yellow" alt="Status In progress">
-    </td>
+        <img src="https://img.shields.io/badge/Done-v 0.4.0-green" alt="Done">
     <td>N/A</td>
   </tr> 
    <tr>
@@ -95,7 +94,7 @@ Users should be able to:
       <b>fm-css-subscription-section</b>
     </td>
     <td>
-      <span>v-0.5.0</span>
+      <img src="https://img.shields.io/badge/In_Progress-v 0.5.0-yellow" alt="Status In progress">
     </td>
     <td>v-1.0.0</td>
   </tr>
