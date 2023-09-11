@@ -8,6 +8,7 @@ Breakpoint
 1440px
 
 */
+
 * {
     box-sizing: border-box;
 }
@@ -379,7 +380,6 @@ body {
     font-size: 0.625rem;
     text-align: left;
 }
-
 @media only screen and (min-width: 768px) {
     .comments::before {
         position: absolute;
@@ -395,10 +395,14 @@ body {
     box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
     margin: 0 20px;
     padding: 40px 28px 13px;
-
+    
     @media (min-width: 768px) {
-        max-width: 863px;
         margin: 0 auto;
+        max-width: 668px;
+    }
+
+    @media (min-width: 991px) {
+        max-width: 863px;
     }
 } 
 .subscription-title {
@@ -409,7 +413,8 @@ body {
     margin-bottom: 32px;
 }
 .subscription-signup {
-    @media (min-width: 768px) {
+    padding: 0;
+    @media (min-width: 991px) {
         padding: 0 49px;
     }
 }
