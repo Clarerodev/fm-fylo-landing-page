@@ -221,15 +221,20 @@ body {
     display: grid;
     gap: 10px;
     max-width: 589px;
-    padding: 0 27px;
+    padding: 0 28px;
     margin: 0 auto;
+
     @media (min-width: 768px) {
+        margin: 0 auto;
         max-width: 758px;
         grid-template-columns: 1.2fr 1fr;
         gap: 57px;
     }
     @media (min-width: 991px) {
         max-width: 1130px;
+    }
+    @media (min-width: 1440px) {
+        max-width: 1230px;
     }
 }
 .stay-productive--image {
@@ -275,11 +280,14 @@ body {
 .comments {
     display: flex;
     flex-direction: column;
-    margin: 0 48px;
     position: relative;
+    margin: 0 48px;
+    max-width: 1160px;
 
     @media only screen and (min-width: 768px) {
         flex-direction: row;
+        margin: 0 auto;
+        padding: 0 48px;
     }
 }
 .comments::before{
@@ -299,6 +307,7 @@ body {
 
     @media only screen and (min-width: 768px) {
         margin-right: 16px;
+        padding: 40px 25px 26px 26px;
     }
 
     @media only screen and (min-width: 991px) {
@@ -309,6 +318,12 @@ body {
     font-weight: 400;
     line-height: 18px;
     margin-bottom: 17px;
+    
+    @media only screen and (min-width: 768px) {
+        font-size: 0.875rem!important;
+        line-height: 21px;
+        letter-spacing: 0.5px;
+    }
 }
 .comments-author {
     display: flex;
@@ -337,7 +352,7 @@ body {
 @media only screen and (min-width: 768px) {
     .comments::before {
         position: absolute;
-        left: -10px;
+        left: 39px;
         top: -15px;
     }
     .landing-main:not(:last-child) {
