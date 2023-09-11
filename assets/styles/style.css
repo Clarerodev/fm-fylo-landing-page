@@ -125,7 +125,36 @@ body {
 /* Landing */
 .landing-main:not(:last-child) {
     padding-bottom: 0;
+}
+
+.landing-main.intro {
+    margin-bottom: 120px;
+    @media only screen and (min-width: 768px){
+        margin-bottom: 158px;
+    }
+}
+.landing-main.feature {
+    margin-bottom: 160px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 138px;
+    }
+}
+.landing-main.stay-productive {
     margin-bottom: 170px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 179px;
+    }
+}
+.landing-main.comments {
+    margin-bottom: 160px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 201px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .landing-main:not(:last-child) {
+        margin-bottom: 120px;
+    }
 }
 
 /* Introduction section */
