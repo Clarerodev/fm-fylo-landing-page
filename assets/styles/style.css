@@ -9,6 +9,9 @@ Breakpoint
 
 */
 
+* {
+    box-sizing: border-box;
+}
 body {
     background: #181F2B;
     color: white;
@@ -123,7 +126,36 @@ body {
 /* Landing */
 .landing-main:not(:last-child) {
     padding-bottom: 0;
+}
+
+.landing-main.intro {
+    margin-bottom: 120px;
+    @media only screen and (min-width: 768px){
+        margin-bottom: 158px;
+    }
+}
+.landing-main.feature {
+    margin-bottom: 160px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 138px;
+    }
+}
+.landing-main.stay-productive {
     margin-bottom: 170px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 179px;
+    }
+}
+.landing-main.comments {
+    margin-bottom: 160px;
+    @media only screen and (min-width: 768px) {
+        margin-bottom: 201px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .landing-main:not(:last-child) {
+        margin-bottom: 120px;
+    }
 }
 
 /* Introduction section */
@@ -348,14 +380,59 @@ body {
     font-size: 0.625rem;
     text-align: left;
 }
-
 @media only screen and (min-width: 768px) {
     .comments::before {
         position: absolute;
         left: 39px;
         top: -15px;
     }
-    .landing-main:not(:last-child) {
-        margin-bottom: 120px;
+}
+
+/* Subscription Section */
+.subscription {
+    border-radius: 9px;
+    background: #1B2330;
+    box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.25);
+    margin: 0 20px;
+    padding: 40px 28px 13px;
+    
+    @media (min-width: 768px) {
+        margin: 0 auto;
+        max-width: 668px;
+    }
+
+    @media (min-width: 991px) {
+        max-width: 863px;
+    }
+} 
+.subscription-title {
+    margin-bottom: 16px;
+    text-align: center;
+}
+.subscription-content {
+    margin-bottom: 32px;
+}
+.subscription-signup {
+    padding: 0;
+    @media (min-width: 991px) {
+        padding: 0 49px;
+    }
+}
+.subscription-signup--form {
+    @media (min-width: 768px) {
+        display: flex;
+    }
+}
+.subscription-signup--form > * {
+    width: 100%;
+    margin-bottom: 24px;
+}
+.subscription-signup--form .input-email {
+    flex-shrink: 0.46;
+    margin-right: 16px;
+}
+.button-signup {
+    @media (min-width: 768px) {
+        margin-left: 13px;
     }
 }
